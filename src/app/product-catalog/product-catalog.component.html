@@ -1,0 +1,23 @@
+<div class="wrapper">
+  <div class="logo text-center"><img src="../../assets/images/logo.png" /></div>
+  <div class="topBreadcub">
+      <ol class="breadcrumb marsITBreadcrumb">
+          <li class="breadcrumb-item">Categories</li>
+      </ol>
+  </div>
+  <div class="productTitle">
+      <span>CATEGORIES</span>
+  </div>
+
+  <div class="row">
+      <div class="col-md-6" *ngFor="let category of categories">
+          <div class="productImg">                
+              <img class="category-picture center-block" src="../../assets/images/{{category.ImageUrl}}" (click)="productsPage(category);" />
+          </div>
+          <div class="productLink">
+              <a [routerLink]="" (click)="productsPage(category);">{{category.Name}}</a>
+          </div>
+      </div>
+  </div>
+</div>
+

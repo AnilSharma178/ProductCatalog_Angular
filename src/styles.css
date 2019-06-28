@@ -1,0 +1,22 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+body {
+    font-family: 'Gill Sans MT',Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif !important;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.breadcrumb {
+    font-size: .8em;    
+    text-transform: uppercase; 
+}
+.marsITBreadcrumb {
+    margin: 0;
+    height: 50px;
+    background-color: #ddd;
+    vertical-align: middle;
+     
+    font-size: 10px;
+    font-weight: 600;
+}

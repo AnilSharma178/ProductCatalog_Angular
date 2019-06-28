@@ -1,0 +1,138 @@
+.category-picture {
+    text-align: center;
+    min-height: 63px;
+    font-size: 20px;
+    padding-top: 10px;
+    max-width: 50%;
+}
+
+.product-title {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+}
+
+.product-sku-COSTCOSku {
+    color: #000;
+    font-size: 13px;
+    width: 100%;
+    min-height: 20px;
+    text-align: center;
+}
+
+.product-sku {
+    padding-bottom: 4px;
+}
+
+.product-COSTCOSku {
+    width: 100%;
+}
+
+.product-SpecialOrder {
+    font-weight: bold;
+    color: #E52B44;
+    text-align: center;
+}
+
+.productPrices {
+    height: 35px;
+    text-align: center;
+    vertical-align: middle;
+    color: #30679A;
+    font-weight: 500;
+    font-size:18px;
+}
+
+.productTitle {
+    margin-bottom: 25px;
+    text-align: center;
+    background: #005dab;
+    padding: 5px 0;
+   
+}
+
+ .productTitle span {
+        font-size: 18px;
+        font-weight: 600;
+       color:#fff;
+      
+     
+ }
+
+
+
+.productDetailImg {
+    max-width: 200px;
+    text-align: center;
+    margin: auto;
+}
+
+    .productDetailImg img {
+        max-width: 100%;
+        height: auto;
+    }
+
+.prductLink {
+    text-align: center;
+    padding-top: 20px;
+}
+
+    .prductLink a:hover {
+        color: #30679A;
+        text-align: center;
+        text-decoration: none;
+    }
+
+.productMain {
+    min-height: 450px;
+}
+
+.logo {
+    padding: 25px 0;
+}
+
+.topBreadcub .breadcrumb {
+    background: #dfdfdf;
+    border-radius: 0px;
+    margin-bottom:0px;
+}
+
+    .topBreadcub .breadcrumb li a {
+        color: #000;
+        font-size: 12px;
+    }
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+
+
+.productPrices span {
+    color: #114782;
+}
+
+
+.product-sku span:last-child {
+    color: #484848;
+}
+.breadcrumb > .active {
+    font-weight: 600;
+    color: #000;
+    font-size:12px;
+}
+
+.topBreadcub .breadcrumb > li + li:before {
+    color: #ccc;
+    content: "";
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    border: 2px solid #000;
+    border-top: 0px;
+    border-left: 0px;
+    transform: rotate(-45deg);
+    margin-right: 9px;
+    padding: 0px;
+}
